@@ -9,7 +9,7 @@ jobs:
   deploy:
     runs-on: ubuntu-latest
     permissions:
-      contents: write   # Required to push to GitHub Pages
+      contents: write
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
@@ -20,23 +20,6 @@ jobs:
           node-version: 20
           cache: npm
 
-      - name: Install Node dependencies
-        run: npm install  # Ensures all dependencies are installed
-
-      - name: Build assets with npm
-        run: npm run build  # Generates CSS/JS and other processed assets
-
       - name: Install Zola
         run: |
-          wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.17.2/zola-v0.17.2-x86_64-unknown-linux-gnu.tar.gz"
-          tar -xzf zola.tar.gz
-          sudo mv zola /usr/local/bin/
-
-      - name: Build site with Zola
-        run: zola build  # Builds the Zola static site
-
-      - name: Deploy to GitHub Pages
-        uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./public
+          wget -q -O zola.tar.gz "https://github.com
