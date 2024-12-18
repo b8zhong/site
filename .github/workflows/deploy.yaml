@@ -27,13 +27,16 @@ jobs:
           sudo mv zola /usr/local/bin/
 
       - name: Install Node dependencies
-        run: npm install  # Install frontend dependencies
+        run: npm install
 
-      - name: Build frontend assets
-        run: npm run build  # Run your frontend build (CSS/JS)
+      - name: Build CSS/JS assets
+        run: npm run build  # Make sure this writes to the 'static/' folder
+
+      - name: Verify assets
+        run: ls -la ./static  # Debugging step to confirm assets are in 'static/'
 
       - name: Build site with Zola
-        run: zola build  # Generate the static site into the 'public/' folder
+        run: zola build
 
       - name: Deploy to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
