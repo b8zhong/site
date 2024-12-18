@@ -22,4 +22,18 @@ jobs:
 
       - name: Install Zola
         run: |
-          wget -q -O zola.tar.gz "https://github.com
+          wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.17.2/zola-v0.17.2-x86_64-unknown-linux-gnu.tar.gz"
+          tar -xzf zola.tar.gz
+          sudo mv zola /usr/local/bin/
+
+      - name: Install Node dependencies
+        run: npm install  # Installs frontend dependencies
+
+      - name: Build site with npm and Zola
+        run: npm run build  # Runs your combined build script (CSS + Zola)
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
