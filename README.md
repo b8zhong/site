@@ -3,3 +3,5 @@
 ### Personal Website
 
 Built with Zola
+
+https://b8zhong.github.io/site/
