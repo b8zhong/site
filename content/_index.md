@@ -15,5 +15,7 @@ In my free time, I try to do cool or new stuff! Check out my [Github].
 [Python]: https://www.python.org/
 [C++]: https://isocpp.org/
 [Electrium Mobility]: https://electriummobility.com/about
-[Github]: https://github.com/b8zhong
+[Castorini]: https://github.com/castorini
 [CSClub]: https://csclub.uwaterloo.ca/about/team/
+[UWEngsoc]: https://www.engsoc.uwaterloo.ca/
+[Github]: https://github.com/b8zhong
