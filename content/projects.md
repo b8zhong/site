@@ -2,4 +2,4 @@
 title = "Projects"
 +++
 
-Projects coming soon!
+One day... I will put my projects here.
