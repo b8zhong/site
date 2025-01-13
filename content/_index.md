@@ -7,7 +7,12 @@ Hi! I'm a student from Ottawa, ON. I currently study electrical and computer eng
 
 I'm interested in software systems and NLP. Right now, I’m a big fan of [TypeScript], [C++], and [Python].
 
-At the University of Waterloo, I’m involved in IR with [Castorini], firmware things at [Electrium Mobility], and serve as a Web Dev Commissioner at [UWEngsoc] as well as a community rep at [CSClub].
+At the University of Waterloo, I do a few things:
+- IR at [Castorini]
+- Firmware design at [Electrium Mobility]
+- Web Dev Commissioner at [UWEngsoc]
+- Community Rep at [CSClub]
+
 In my free time, I try to do cool or new stuff! Check out my [Github].
 
 [TypeScript]: https://www.typescriptlang.org/
