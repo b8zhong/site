@@ -17,6 +17,6 @@ In my free time, I try to do cool or new stuff! Check out my [Github].
 
 [Electrium Mobility]: https://electriummobility.com/about
 [Castorini]: https://github.com/castorini
-[CSClub]: https://csclub.uwaterloo.ca/about/team/
+[CSC]: https://csclub.uwaterloo.ca/about/team/
 [UWEngsoc]: https://www.engsoc.uwaterloo.ca/
 [Github]: https://github.com/b8zhong
