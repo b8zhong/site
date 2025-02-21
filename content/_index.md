@@ -8,7 +8,7 @@ Hi! I'm a student from Ottawa, ON. I currently study electrical and computer eng
 I'm interested in software systems and NLP.
 
 At the University of Waterloo, I do a few things:
-- IR at [Castorini]
+- IR at [Castorini]: SIGIR Resource coming soon...
 - Firmware design at [Electrium Mobility]
 - Web Dev for [UWEngsoc]
 - Exec at [CSC]
