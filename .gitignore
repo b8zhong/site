@@ -1,0 +1,8 @@
+node_modules/
+public/
+static/style.css
+
+
+.DS_Store
+.env
+.idea
