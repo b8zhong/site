@@ -1,0 +1,54 @@
+<svg height="600" width="800" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2024-12-22, 8:36:42 p.m. -->
+<g transform="translate(97.19667,18)">
+<g id="sankey_flows">
+<path id="flow1" d="M8 51.84246v332.07477L455.74251 383.5377v-332.07477z" fill="#7570b3" stroke-width="0.5" stroke="#7570b3" opacity="0.45"><title>Applications → Rejected: 315</title></path>
+<path id="flow0" d="M8 387.07984C79.95709 387.07984 79.95709 447.4205 151.91417 447.4205" fill="none" stroke-width="6.32523" stroke="#d95f02" opacity="0.45"><title>Applications → 1st Interviews: 6</title></path>
+<path id="flow3" d="M159.91417 446.36629C307.82834 446.36629 307.82834 385.64612 455.74251 385.64612" fill="none" stroke-width="4.21682" stroke="#7570b3" opacity="0.45"><title>1st Interviews → Rejected: 4</title></path>
+<path id="flow2" d="M159.91417 449.52891C231.87126 449.52891 231.87126 510.63579 303.82834 510.63579" fill="none" stroke-width="2.10841" stroke="#e7298a" opacity="0.45"><title>1st Interviews → 2nd Interviews: 2</title></path>
+<path id="flow4" d="M311.82834 510.63579v1.05421L455.74251 511.68999v-1.05421z" fill="#66a61e" stroke-width="0.5" stroke="#66a61e" opacity="0.45"><title>2nd Interviews → Offers: 1</title></path>
+<path id="flow5" d="M311.82834 510.10869C383.78543 510.10869 383.78543 388.28163 455.74251 388.28163" fill="none" stroke-width="1.05421" stroke="#7570b3" opacity="0.45"><title>2nd Interviews → Rejected: 1</title></path>
+<path id="flow6" d="M463.74251 510.63579v1.05421L607.65668 511.68999v-1.05421z" fill="#e6ab02" stroke-width="0.5" stroke="#e6ab02" opacity="0.45"><title>Offers → Accepted: 1</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="51.84246" height="338.4" width="8" fill="#1b9e77" fill-opacity="1"><title>Applications:
+321</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="151.91417" y="444.25788" height="6.32523" width="8" fill="#d95f02" fill-opacity="1"><title>1st Interviews:
+6</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="455.74251" y="51.46294" height="337.34579" width="8" fill="#7570b3" fill-opacity="1"><title>Rejected:
+320</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="303.82834" y="509.58159" height="2.10841" width="8" fill="#e7298a" fill-opacity="1"><title>2nd Interviews:
+2</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="455.74251" y="510.63579" height="1.05421" width="8" fill="#66a61e" fill-opacity="1"><title>Offers:
+1</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="607.65668" y="510.63578" height="1.05421" width="8" fill="#e6ab02" fill-opacity="1"><title>Accepted:
+1</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="17px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-84.19667" y="199.48484" width="82.93333" height="43.11526" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-7.92167" y="221.04246" font-weight="400" font-size="19.38px" dy="-0.78262">321<tspan x="-7.92167" dy="16.71525" font-weight="400" font-size="12.92px">Applications</tspan></text>
+<rect id="label1_bg" class="for_r1" x="161.17751" y="424.19686" width="100.53334" height="46.84727" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="167.83584" y="447.4205" font-weight="400" font-size="21.38812px" dy="-0.94863">6<tspan x="167.83584" dy="18.44726" font-weight="400" font-size="14.25875px">1st Interviews</tspan></text>
+<rect id="label2_bg" class="for_r2" x="465.00585" y="198.57545" width="64.28334" height="43.12075" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="start" x="471.66418" y="220.13583" font-weight="400" font-size="19.38638px" dy="-0.78538">320<tspan x="471.66418" dy="16.72075" font-weight="400" font-size="12.92425px">Rejected</tspan></text>
+<rect id="label3_bg" class="for_r3" x="313.09167" y="487.40118" width="105.41667" height="46.86927" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="start" x="319.75001" y="510.63579" font-weight="400" font-size="21.41363px" dy="-0.95962">2<tspan x="319.75001" dy="18.46925" font-weight="400" font-size="14.27575px">2nd Interviews</tspan></text>
+<rect id="label4_bg" class="for_r4" x="465.00585" y="487.92553" width="51.96666" height="46.87476" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="471.66418" y="511.16289" font-weight="400" font-size="21.42px" dy="-0.96238">1<tspan x="471.66418" dy="18.47475" font-weight="400" font-size="14.28px">Offers</tspan></text>
+<rect id="label5_bg" class="for_r5" x="616.92004" y="487.92553" width="72.88332" height="46.87476" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="623.57835" y="511.16289" font-weight="400" font-size="21.42px" dy="-0.96238">1<tspan x="623.57835" dy="18.47475" font-weight="400" font-size="14.28px">Accepted</tspan></text>
+</g>
+</g></svg>
