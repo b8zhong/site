@@ -1,0 +1,45 @@
+name: Build and Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install Node.js
+        uses: actions/setup-node@v3
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install Zola
+        run: |
+          wget -q -O zola.tar.gz "https://github.com/getzola/zola/releases/download/v0.17.2/zola-v0.17.2-x86_64-unknown-linux-gnu.tar.gz"
+          tar -xzf zola.tar.gz
+          sudo mv zola /usr/local/bin/
+
+      - name: Install Node dependencies
+        run: npm install
+
+      - name: Build CSS/JS assets
+        run: npm run build  # Make sure this writes to the 'static/' folder
+
+      - name: Verify assets
+        run: ls -la ./static  # Debugging step to confirm assets are in 'static/'
+
+      - name: Build site with Zola
+        run: zola build
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
