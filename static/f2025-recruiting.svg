@@ -1,0 +1,61 @@
+<svg height="600" width="800" xmlns="http://www.w3.org/2000/svg">
+<title>Your Diagram Title</title>
+<!-- Generated with SankeyMATIC: 2025-07-10, 1:31:47 p.m. -->
+<g transform="translate(97.19667,18)">
+<g id="sankey_flows">
+<path id="flow1" d="M8 207.18443C231.87126 207.18443 231.87126 197.90636 455.74251 197.90636" fill="none" stroke-width="286.98353" stroke="#7570b3" opacity="0.45"><title>Applications → Rejected: 72</title></path>
+<path id="flow0" d="M8 376.58443C79.95709 376.58443 79.95709 413.91338 151.91417 413.91338" fill="none" stroke-width="51.81647" stroke="#d95f02" opacity="0.45"><title>Applications → 1st Interviews: 13</title></path>
+<path id="flow4" d="M159.91417 427.86397C231.87126 427.86397 231.87126 499.82235 303.82834 499.82235" fill="none" stroke-width="23.91529" stroke="#66a61e" opacity="0.45"><title>1st Interviews → Stopped: 6</title></path>
+<path id="flow2" d="M159.91417 395.97691C307.82834 395.97691 307.82834 349.36989 455.74251 349.36989" fill="none" stroke-width="15.94353" stroke="#7570b3" opacity="0.45"><title>1st Interviews → Rejected: 4</title></path>
+<path id="flow3" d="M159.91417 409.9275C231.87126 409.9275 231.87126 440.96588 303.82834 440.96588" fill="none" stroke-width="11.95765" stroke="#e7298a" opacity="0.45"><title>1st Interviews → 2nd Interview: 3</title></path>
+<path id="flow6" d="M311.82834 438.97294C383.78543 438.97294 383.78543 361.32753 455.74251 361.32753" fill="none" stroke-width="7.97176" stroke="#7570b3" opacity="0.45"><title>2nd Interview → Rejected: 2</title></path>
+<path id="flow5" d="M311.82834 442.95882v3.98588L455.74251 446.93892v-3.98588z" fill="#e6ab02" stroke-width="0.5" stroke="#e6ab02" opacity="0.45"><title>2nd Interview → Offer: 1</title></path>
+<path id="flow7" d="M463.74251 442.95304v3.98588L607.65668 446.93649v-3.98588z" fill="#a6761d" stroke-width="0.5" stroke="#a6761d" opacity="0.45"><title>Offer → Accepted: 1</title></path>
+</g>
+<g id="sankey_nodes">
+<g class="node">
+<rect id="r0" class="for_r0" x="0" y="63.69267" height="338.8" width="8" fill="#1b9e77" fill-opacity="1"><title>Applications:
+85</title></rect>
+</g>
+<g class="node">
+<rect id="r1" class="for_r1" x="151.91417" y="388.00514" height="51.81647" width="8" fill="#d95f02" fill-opacity="1"><title>1st Interviews:
+13</title></rect>
+</g>
+<g class="node">
+<rect id="r2" class="for_r2" x="455.74251" y="54.41459" height="310.89882" width="8" fill="#7570b3" fill-opacity="1"><title>Rejected:
+78</title></rect>
+</g>
+<g class="node">
+<rect id="r3" class="for_r3" x="303.82834" y="434.98706" height="11.95765" width="8" fill="#e7298a" fill-opacity="1"><title>2nd Interview:
+3</title></rect>
+</g>
+<g class="node">
+<rect id="r4" class="for_r4" x="303.82834" y="487.86471" height="23.91529" width="8" fill="#66a61e" fill-opacity="1"><title>Stopped:
+6</title></rect>
+</g>
+<g class="node">
+<rect id="r5" class="for_r5" x="455.74251" y="442.95304" height="3.98588" width="8" fill="#e6ab02" fill-opacity="1"><title>Offer:
+1</title></rect>
+</g>
+<g class="node">
+<rect id="r6" class="for_r6" x="607.65668" y="442.95061" height="3.98588" width="8" fill="#a6761d" fill-opacity="1"><title>Accepted:
+1</title></rect>
+</g>
+</g>
+<g id="sankey_labels" font-family="sans-serif" font-size="17px" fill="#000000">
+<rect id="label0_bg" class="for_r0" x="-84.19667" y="211.53504" width="82.93333" height="43.11526" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label0" class="for_r0" text-anchor="end" x="-7.92167" y="233.09267" font-weight="400" font-size="19.38px" dy="-0.78262">85<tspan x="-7.92167" dy="16.71525" font-weight="400" font-size="12.92px">Applications</tspan></text>
+<rect id="label1_bg" class="for_r1" x="161.17751" y="390.80169" width="99.40001" height="46.62339" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label1" class="for_r1" text-anchor="start" x="167.83584" y="413.91338" font-weight="400" font-size="21.12857px" dy="-0.83669">13<tspan x="167.83584" dy="18.22339" font-weight="400" font-size="14.08571px">1st Interviews</tspan></text>
+<rect id="label2_bg" class="for_r2" x="465.00585" y="187.90806" width="64.76668" height="43.76188" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label2" class="for_r2" text-anchor="start" x="471.66418" y="209.864" font-weight="400" font-size="19.55px" dy="-0.68094">78<tspan x="471.66418" dy="16.86188" font-weight="400" font-size="13.03333px">Rejected</tspan></text>
+<rect id="label3_bg" class="for_r3" x="313.09167" y="417.74944" width="98.15001" height="46.83286" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label3" class="for_r3" text-anchor="start" x="319.75001" y="440.96588" font-weight="400" font-size="21.37143px" dy="-0.94143">3<tspan x="319.75001" dy="18.43286" font-weight="400" font-size="14.24762px">2nd Interview</tspan></text>
+<rect id="label4_bg" class="for_r4" x="313.09167" y="476.63735" width="66.23332" height="46.77" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label4" class="for_r4" text-anchor="start" x="319.75001" y="499.82235" font-weight="400" font-size="21.29857px" dy="-0.91001">6<tspan x="319.75001" dy="18.37002" font-weight="400" font-size="14.19905px">Stopped</tspan></text>
+<rect id="label5_bg" class="for_r5" x="465.00585" y="421.70861" width="44.83333" height="46.87473" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label5" class="for_r5" text-anchor="start" x="471.66418" y="444.94598" font-weight="400" font-size="21.42px" dy="-0.96238">1<tspan x="471.66418" dy="18.47475" font-weight="400" font-size="14.28px">Offer</tspan></text>
+<rect id="label6_bg" class="for_r6" x="616.92004" y="421.70617" width="72.88332" height="46.87473" rx="4.25" fill="#fff" fill-opacity="0.55" stroke="none" stroke-width="0" stroke-opacity="0"></rect>
+<text id="label6" class="for_r6" text-anchor="start" x="623.57835" y="444.94355" font-weight="400" font-size="21.42px" dy="-0.96238">1<tspan x="623.57835" dy="18.47475" font-weight="400" font-size="14.28px">Accepted</tspan></text>
+</g>
+</g></svg>
